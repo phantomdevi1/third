@@ -1,0 +1,150 @@
+body {
+  font-family: Comic Sans Ms;
+}
+
+/*-- shapka */
+.header {
+  width: 100%;
+  height: 85px;
+  display: inline-block;
+  position: relative;
+  padding-top: 0px;
+  margin-left: -10px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px;
+  border-radius: 10px;
+  margin: 6px 8px;
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613036903_171-p-oranzhevii-kosmos-fon-244.jpg);
+}
+.header__logo {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  padding-left: 20%;
+}
+
+.nav {
+  padding-right: 40%;
+}
+.nav__link {
+  padding-left: 60px;
+  color: violet;
+}
+.btn__top {
+  padding: 2px;
+  color: violet;
+  margin-left: 230px;
+  border: 2px solid violet;
+  border-radius: 10px;
+}
+
+/*-- blocks */
+
+main {
+  margin-top: -1.5%;
+}
+section {
+  min-width: max-content;
+}
+
+.moddle__left {
+  float: left;
+  height: 950px;
+  width: 20%;
+  border: 0px;
+  border-radius: 10px;
+  background-image: url(https://drasler.ru/wp-content/uploads/2019/05/%D0%9E%D0%B1%D0%BE%D0%B8-%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D1%81%D1%82%D0%BE%D0%BB%D0%B0-23.jpg);
+}
+.sslk {
+  margin-top: auto;
+  padding-left: 2%;
+  direction: none;
+  color: white;
+  font-size: 25px;
+}
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 35px 0;
+  border: 0;
+  background-color: white;
+}
+.btn__left__cont {
+  margin-top: 80%;
+  padding-left: 37%;
+}
+.btn__left {
+  color: brown;
+  border: 2px solid rgb(195, 28, 28);
+  border-radius: 5px;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+}
+.moddle__right {
+  display: inline-block;
+  top: 0;
+  right: 0;
+  width: 77%;
+  height: 770px;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625686577_44-kartinkin-com-p-anime-devchonki-anime-krasivo-49.jpg);
+}
+
+.moddle__under {
+  display: inline-block;
+  width: 77.5%;
+  height: 160px;
+  border: 0px;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-left: 10px;
+  background-image: url(https://get.wallhere.com/photo/illustration-women-anime-anime-girls-artwork-pink-1920x1080-px-mangaka-717685.jpg);
+}
+.oglavl {
+  float: right;
+  margin: 2%;
+  padding: 1%;
+  border: 0px;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+}
+.info__right {
+  padding: 1%;
+  margin: 1%;
+  width: 33%;
+  height: 93%;
+  border: 0px;
+  border-radius: 10px;
+  background-color: darkslateblue;
+}
+.info {
+  padding: 2%;
+  margin: 2%;
+  border: 0px;
+  border-radius: 10px;
+  background-color: slateblue;
+}
+.info__under {
+  width: 30%;
+  height: 23%;
+  border: 1px solid coral;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-top: 1px;
+  background-color: coral;
+}
+h6 {
+  padding-left: 3%;
+  font-size: 10px;
+  color: red;
+}
